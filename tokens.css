@@ -1,4 +1,4 @@
-/* 秃头妃主视觉 tokens v1.1 (2026-11-25, Allen 定 A 方案)
+/* 秃头妃主视觉 tokens v1.2 (2026-11-25, Allen 定调亮版)
    新图直接引用本文件。规范正文见 主视觉设定.md */
 :root {
   /* 底 */
@@ -15,13 +15,13 @@
   --tutoufei-text-2: #d8cfe8;
   --tutoufei-text-3: #b9aecf;
   /* 常规柱：v1 暖浅色 / v2 纯白 */
-  --tutoufei-bar-v1: #d8cfe8;
+  --tutoufei-bar-v1: #e9e4f5;
   --tutoufei-bar-v2: #ffffff;
   --tutoufei-track: rgba(255, 255, 255, 0.12);
   /* 强调渐变 */
   --tutoufei-grad-badge: linear-gradient(135deg, #7c3aed, #1d4ed8);
-  --tutoufei-grad-hot: linear-gradient(90deg, #ec4899, #8b5cf6);
-  --tutoufei-grad-hot-v: linear-gradient(180deg, #ec4899, #8b5cf6);
+  --tutoufei-grad-hot: linear-gradient(90deg, #ec4899, #f97316, #8b5cf6);
+  --tutoufei-grad-hot-v: linear-gradient(180deg, #ec4899, #f97316, #8b5cf6);
   /* 代码卡片 */
   --tutoufei-code-bg: #1d1533;
   --tutoufei-code-glow: rgba(139, 92, 246, 0.22);
