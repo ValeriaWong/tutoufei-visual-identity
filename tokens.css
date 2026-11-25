@@ -1,0 +1,29 @@
+/* 秃头妃主视觉 tokens v1.0 (2026-11-25, Allen 定稿 B: AI 抽象插画风)
+   新图直接引用本文件。规范正文见 主视觉设定.md */
+:root {
+  /* 底 */
+  --tutoufei-bg: #120a1c;
+  --tutoufei-card: rgba(20, 12, 32, 0.72);
+  --tutoufei-card-border: rgba(255, 255, 255, 0.16);
+  /* 抽象色块 */
+  --tutoufei-pink: #ec4899;
+  --tutoufei-blue: #3b82f6;
+  --tutoufei-orange: #f97316;
+  --tutoufei-purple: #8b5cf6;
+  /* 文字 */
+  --tutoufei-text: #f2eef7;
+  --tutoufei-text-2: #d8cfe8;
+  --tutoufei-text-3: #b9aecf;
+  --tutoufei-bar: #f5f5f4;
+  --tutoufei-track: rgba(255, 255, 255, 0.12);
+  /* 强调渐变 */
+  --tutoufei-grad-badge: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  --tutoufei-grad-hot: linear-gradient(90deg, #ec4899, #f97316, #3b82f6);
+  /* 字体 */
+  --tutoufei-font-display: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
+  --tutoufei-font-body: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
+  --tutoufei-font-serif: "Noto Serif CJK SC", "Songti SC", "SimSun", serif;
+  /* 圆角 */
+  --tutoufei-radius-card: 16px;
+  --tutoufei-radius-pill: 999px;
+}
