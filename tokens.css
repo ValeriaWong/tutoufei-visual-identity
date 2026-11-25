@@ -1,4 +1,4 @@
-/* 秃头妃主视觉 tokens v1.0 (2026-11-25, Allen 定稿 B: AI 抽象插画风)
+/* 秃头妃主视觉 tokens v1.1 (2026-11-25, Allen 定 A 方案)
    新图直接引用本文件。规范正文见 主视觉设定.md */
 :root {
   /* 底 */
@@ -14,15 +14,32 @@
   --tutoufei-text: #f2eef7;
   --tutoufei-text-2: #d8cfe8;
   --tutoufei-text-3: #b9aecf;
-  --tutoufei-bar: #f5f5f4;
+  /* 常规柱：v1 暖浅色 / v2 纯白 */
+  --tutoufei-bar-v1: #d8cfe8;
+  --tutoufei-bar-v2: #ffffff;
   --tutoufei-track: rgba(255, 255, 255, 0.12);
   /* 强调渐变 */
-  --tutoufei-grad-badge: linear-gradient(135deg, #8b5cf6, #3b82f6);
-  --tutoufei-grad-hot: linear-gradient(90deg, #ec4899, #f97316, #3b82f6);
+  --tutoufei-grad-badge: linear-gradient(135deg, #7c3aed, #1d4ed8);
+  --tutoufei-grad-hot: linear-gradient(90deg, #ec4899, #8b5cf6);
+  --tutoufei-grad-hot-v: linear-gradient(180deg, #ec4899, #8b5cf6);
+  /* 代码卡片 */
+  --tutoufei-code-bg: #1d1533;
+  --tutoufei-code-glow: rgba(139, 92, 246, 0.22);
+  --tutoufei-code-text: #f2eef7;
+  --tutoufei-code-kw: #c4b5fd;
+  --tutoufei-code-val: #93c5fd;
+  --tutoufei-code-comment: #a89fc4;
+  --tutoufei-code-dot-r: #ff5f57;
+  --tutoufei-code-dot-y: #febc2e;
+  --tutoufei-code-dot-g: #28c840;
   /* 字体 */
-  --tutoufei-font-display: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
-  --tutoufei-font-body: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
-  --tutoufei-font-serif: "Noto Serif CJK SC", "Songti SC", "SimSun", serif;
+  --tutoufei-font-display: "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --tutoufei-font-body: "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --tutoufei-font-serif: "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  /* 移动端字号下限 */
+  --tutoufei-text-body-min: 15px;
+  --tutoufei-text-note-min: 13px;
+  --tutoufei-text-axis-min: 12px;
   /* 圆角 */
   --tutoufei-radius-card: 16px;
   --tutoufei-radius-pill: 999px;
